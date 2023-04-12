@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextField /> 1. should render the reading 1`] = `
+.c0 {
+  font-size: 1.4rem;
+  color: #030517;
+  cursor: pointer;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 4rem;
+  border: 0.2rem solid;
+  background: #EAEAEA;
+  padding: 0.8rem;
+  border-color: #EAEAEA;
+}
+
+.c1:focus-within {
+  box-shadow: 0 0 0.5rem #8F8F8F;
+}
+
+.c2 {
+  color: #030517;
+  font-family: Poppins,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;
+  font-size: 1.6rem;
+  padding: 0.8rem 0;
+  padding-right: 1.6rem;
+  background: transparent;
+  border: 0;
+  outline: none;
+  width: calc(100% - 2.2rem);
+}
+
+.c2:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 2.4rem #EAEAEA inset;
+  -webkit-filter: none;
+  filter: none;
+}
+
+.c2:-webkit-autofill::first-line {
+  font-family: Poppins,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;
+  font-size: 1.6rem;
+}
+
+<div
+  class=""
+>
+  <label
+    class="c0"
+  >
+    TextField
+  </label>
+  <div
+    class="c1"
+  >
+    <input
+      class="c2"
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;
