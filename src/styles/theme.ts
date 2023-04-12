@@ -1,12 +1,8 @@
 const theme = {
   colors: {
-    primary: '#BFDE42',
-    secondary: '#42B4CA',
-    yellon: '#F5EB46',
-    gree: {
-      200: '#8DC760',
-      400: '#2D9245'
-    },
+    primary: '#F231A5',
+    secondary: '#3CD3C1',
+    mainBg: '#06092B',
     white: '#FAFAFA',
     black: '#030517',
     lightGray: '#EAEAEA',
