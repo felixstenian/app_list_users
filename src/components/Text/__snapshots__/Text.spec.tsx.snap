@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Text /> 1. should render the reading 1`] = `
+<div
+  class=""
+>
+  <h1>
+    Text
+  </h1>
+</div>
+`;
