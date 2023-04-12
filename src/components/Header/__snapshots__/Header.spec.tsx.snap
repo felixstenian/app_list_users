@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> 1. should render the reading 1`] = `
+<div
+  class=""
+>
+  <h1>
+    Header
+  </h1>
+</div>
+`;
+
+exports[`<Header /> 2. should render the header  1`] = `
+<div
+  class=""
+>
+  <h1>
+    Header
+  </h1>
+</div>
+`;
+
+exports[`<Header /> 2. should render the header with the given props 1`] = `
+<div
+  class=""
+>
+  <h1>
+    Header
+  </h1>
+</div>
+`;
+
+exports[`<Header /> 2. should render the reading 1`] = `
+<div
+  class=""
+>
+  <h1>
+    Header
+  </h1>
+</div>
+`;
