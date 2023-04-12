@@ -1,11 +1,14 @@
 import styled from 'styled-components'
 import {
+  BorderProps,
   ColorProps,
   FlexProps,
+  FlexboxProps,
   GridProps,
   LayoutProps,
   ShadowProps,
   SpaceProps,
+  border,
   color,
   flexbox,
   layout,
@@ -19,9 +22,11 @@ export interface RowProps
   extends SpaceProps,
     LayoutProps,
     FlexProps,
+    FlexboxProps,
     ShadowProps,
     GridProps,
     React.HTMLAttributes<HTMLDivElement>,
+    BorderProps,
     Omit<ColorProps, 'color'> {
   ref?: React.ForwardedRef<unknown>
   as?: React.FC | string
@@ -39,7 +44,9 @@ const Row: React.FC<RowProps> = styled.div<RowProps>(
   flexbox,
   position,
   layout,
-  color
+  color,
+  border,
+  flexbox
 )
 
 export default Row
