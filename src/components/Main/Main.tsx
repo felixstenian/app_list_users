@@ -1,4 +1,6 @@
-import { Header, Row, Text } from 'components'
+import { FiSearch } from 'react-icons/fi'
+
+import { Header, Row, Text, TextField } from 'components'
 
 import * as Style from './styles'
 
@@ -37,12 +39,11 @@ const Main = () => {
         justifyContent="space-around"
         alignItems="center"
         m="5rem auto"
-        bg={['secondary', 'primary', 'mainBg']}
+        // bg={['secondary', 'primary', 'mainBg']}
         flexDirection={['column', 'column', 'row']}
       >
         <Row>
-          <input placeholder="Pesquisar" />
-          <button>Buscar</button>
+          <TextField placeholder="Pesquisar" icon={<FiSearch />} />
         </Row>
 
         <Row alignItems="center">

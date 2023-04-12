@@ -7,7 +7,6 @@ describe('<Main />', () => {
   it('1. should render the reading', () => {
     const { container } = renderWithTheme(<Main />)
 
-    expect(screen.getByRole('button', { name: /buscar/i })).toBeInTheDocument()
     expect(screen.getByText(/LOGO/i)).toBeInTheDocument()
 
     expect(container.firstChild).toMatchSnapshot()
