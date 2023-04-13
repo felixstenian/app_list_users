@@ -9,3 +9,5 @@ export { default as Text } from './Text'
 export { default as TextField } from './TextField'
 
 export { default as SelectionField } from './SelectionField'
+
+export { default as Image } from './Image'

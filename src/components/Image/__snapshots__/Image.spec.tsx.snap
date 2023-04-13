@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Image /> 1. should render the reading 1`] = `
+.c0 {
+  overflow: hidden;
+}
+
+.c1 {
+  width: 100%;
+  height: 100%;
+}
+
+<figure
+  class="c0"
+  data-testid="image"
+>
+  <img
+    class="c1"
+    src="https://randomuser.me/api/portraits/women/2.jpg"
+  />
+</figure>
+`;
