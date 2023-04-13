@@ -7,7 +7,11 @@ const theme = {
     black: '#030517',
     lightGray: '#EAEAEA',
     gray: '#8F8F8F',
-    darkGray: '#2E2F42'
+    darkGray: '#2E2F42',
+    overlay: {
+      light: 'rgba(0,0,0, 0.25)',
+      dark: 'rgba(0,0,0, 0.75)'
+    }
   },
   grid: {
     container: '130rem',
