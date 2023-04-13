@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SelectionField /> 1. should render the reading 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c6 {
+  font-family: Poppins,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;
+  font-size: 1.4rem;
+}
+
+.c1 {
+  font-size: 1.4rem;
+  color: #030517;
+  padding: 0.8rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 4rem;
+  border: 0.2rem solid;
+  width: 100%;
+  background: #EAEAEA;
+  padding: 0.8rem;
+  border-color: #EAEAEA;
+}
+
+.c2:focus-within {
+  box-shadow: 0 0 0.5rem #8F8F8F;
+}
+
+.c3 {
+  color: #030517;
+  font-family: Poppins,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;
+  font-size: 1.6rem;
+  padding: 0.8rem 0;
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.c4 {
+  background: #EAEAEA;
+  border: 0;
+  cursor: pointer;
+}
+
+<div
+  class="c0"
+>
+  <label
+    class="c1"
+  >
+    SelectionField
+  </label>
+  <div
+    class="c2"
+  >
+    <select
+      class="c3"
+    >
+      <option
+        class="c4"
+        value="Option 1"
+      >
+        <div
+          class="c5"
+        >
+          <body
+            class="c6"
+          >
+            Option 1
+          </body>
+        </div>
+      </option>
+      <option
+        class="c4"
+        value="Option 2"
+      >
+        <div
+          class="c5"
+        >
+          <body
+            class="c6"
+          >
+            Option 2
+          </body>
+        </div>
+      </option>
+    </select>
+  </div>
+</div>
+`;
