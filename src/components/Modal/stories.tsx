@@ -1,5 +1,6 @@
 import { Meta, Story } from '@storybook/react'
-import Modal from '.'
+import { useState } from 'react'
+import Modal, { ModalProps } from '.'
 
 export default {
   title: 'Modal',
@@ -7,4 +8,15 @@ export default {
   args: {}
 } as Meta
 
-export const Default: Story = (args) => <Modal {...args} />
+export const Default: Story<ModalProps> = (args) => {
+  const [openModal, setOpenModal] = useState(false)
+
+  return (
+    <>
+      <Modal {...args} open={openModal} onClose={() => setOpenModal(false)}>
+        Content Modal
+      </Modal>
+      <button onClick={() => setOpenModal(true)}>Open Modal</button>
+    </>
+  )
+}
