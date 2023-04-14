@@ -6,7 +6,7 @@ export default {
   title: 'UsersList',
   component: UsersList,
   args: {
-    list: listMock,
+    listUsers: listMock,
     userData: {
       type: listMock[0]
     }
