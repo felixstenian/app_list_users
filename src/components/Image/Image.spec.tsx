@@ -1,6 +1,6 @@
 import { screen } from '@testing-library/react'
 
-import { renderWithTheme } from 'utils'
+import { renderWithTheme } from 'shared/utils'
 
 import Image from '.'
 

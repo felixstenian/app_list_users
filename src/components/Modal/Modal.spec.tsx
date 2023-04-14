@@ -1,6 +1,6 @@
 import { fireEvent, screen } from '@testing-library/react'
 
-import { renderWithTheme } from 'utils'
+import { renderWithTheme } from 'shared/utils'
 
 import Modal from '.'
 

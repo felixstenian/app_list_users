@@ -1,6 +1,6 @@
 import { screen } from '@testing-library/react'
 
-import { renderWithTheme } from 'utils'
+import { renderWithTheme } from 'shared/utils'
 import SelectionField from '.'
 
 const options = ['Option 1', 'Option 2']
