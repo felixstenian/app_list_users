@@ -1,0 +1,23 @@
+export const NATIONALITIES = {
+  AU: 'Austrália (Australia)',
+  BR: 'Brasil',
+  CA: 'Canadá',
+  CH: 'Suíça (Switzerland)',
+  DE: 'Alemanha (Germany)',
+  DK: 'Dinamarca (Denmark)',
+  ES: 'Espanha (Spain)',
+  FI: 'Finlândia (Finland)',
+  FR: 'França (France)',
+  GB: 'Reino Unido (United Kingdom)',
+  IE: 'Irlanda (Ireland)',
+  IN: 'Índia',
+  IR: 'Irã',
+  MX: 'México',
+  NL: 'Países Baixos (Netherlands)',
+  NO: 'Noruega (Norway)',
+  NZ: 'Nova Zelândia (New Zealand)',
+  RS: 'Sérvia (Serbia)',
+  TR: 'Turquia (Türkiye)',
+  UA: 'Ucrânia (Ukraine)',
+  US: 'Estados Unidos (United States)'
+}
