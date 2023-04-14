@@ -5,8 +5,8 @@ import * as Style from './styles'
 export interface ImageProps extends SpaceProps, BorderProps, LayoutProps {
   src?: string
   alt?: string
-  width?: string
-  height?: string
+  width?: string[] | string
+  height?: string[] | string
   objectFit?: string
 }
 

@@ -13,3 +13,5 @@ export { default as SelectionField } from './SelectionField'
 export { default as Image } from './Image'
 
 export { default as Modal } from './Modal'
+
+export { default as UsersList } from './UsersList'
