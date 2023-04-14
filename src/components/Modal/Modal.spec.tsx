@@ -33,4 +33,12 @@ describe('<Modal />', () => {
     fireEvent.click(getByTestId('modal-close-icon'))
     expect(mockOnClose).toHaveBeenCalled()
   })
+  it('4. should call onClose when escape key is pressed', () => {
+    const onCloseMock = jest.fn()
+    const { getByTestId } = renderWithTheme(
+      <Modal open={true} onClose={onCloseMock} hasCloseIcon={true} />
+    )
+    fireEvent.keyDown(getByTestId('modal-close-icon'), { key: 'Escape' })
+    expect(onCloseMock).toHaveBeenCalled()
+  })
 })

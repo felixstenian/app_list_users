@@ -1,6 +1,7 @@
 import styled, { css } from 'styled-components'
 
 import { Row } from 'components'
+import { RowProps } from 'components/Row'
 
 export const Wrapper = styled(Row)<{ isOpen: boolean }>`
   ${({ theme, isOpen }) => css`
@@ -16,7 +17,7 @@ export const Wrapper = styled(Row)<{ isOpen: boolean }>`
   `}
 `
 
-export const Container = styled(Row)`
+export const Container = styled(Row)<RowProps>`
   flex-direction: column;
   position: relative;
   min-width: 400px;

@@ -11,9 +11,17 @@ exports[`<UsersList /> 1. should render the list of users 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .c1 {
@@ -22,34 +30,36 @@ exports[`<UsersList /> 1. should render the list of users 1`] = `
   display: -ms-flexbox;
   display: flex;
   gap: 1rem;
+  cursor: pointer;
   padding: 10px;
   margin-top: 5px;
   margin-bottom: 5px;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  width: 100%;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 80%;
+  min-width: 32rem;
   background-color: #3CD3C1;
   border-radius: 8px;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .c2 {
@@ -61,22 +71,62 @@ exports[`<UsersList /> 1. should render the list of users 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4rem;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .c5 {
   font-family: Poppins,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;
+  font-size: 2.0rem;
+  margin-left: 30px;
+}
+
+.c7 {
+  font-family: Poppins,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;
+  font-size: 1.6rem;
+}
+
+.c8 {
+  font-family: Poppins,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;
   font-size: 1.4rem;
-  margin-left: 0;
 }
 
 .c3 {
@@ -94,78 +144,62 @@ exports[`<UsersList /> 1. should render the list of users 1`] = `
 }
 
 @media screen and (min-width:40em) {
-  .c1 {
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+  .c2 {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
 }
 
 @media screen and (min-width:52em) {
-  .c1 {
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-  }
-}
-
-@media screen and (min-width:40em) {
-  .c1 {
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-}
-
-@media screen and (min-width:52em) {
-  .c1 {
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
+  .c2 {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
 }
 
 @media screen and (min-width:40em) {
   .c2 {
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
 }
 
 @media screen and (min-width:52em) {
   .c2 {
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
 }
 
 @media screen and (min-width:40em) {
-  .c2 {
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+  .c6 {
+    gap: 3rem;
   }
 }
 
 @media screen and (min-width:52em) {
-  .c2 {
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
+  .c6 {
+    gap: 5rem;
   }
 }
 
 @media screen and (min-width:40em) {
   .c5 {
-    margin-left: 0;
+    margin-left: 20px;
   }
 }
 
 @media screen and (min-width:52em) {
   .c5 {
-    margin-left: 10px;
+    margin-left: 20px;
   }
 }
 
@@ -187,9 +221,10 @@ exports[`<UsersList /> 1. should render the list of users 1`] = `
   class="c0"
   data-testid="listUsers"
 >
-  <div
+  <a
     class="c1"
-    width="100%"
+    cursor="pointer"
+    width="80%"
   >
     <div
       class="c2"
@@ -205,22 +240,31 @@ exports[`<UsersList /> 1. should render the list of users 1`] = `
           src="https://randomuser.me/api/portraits/men/75.jpg"
         />
       </figure>
-      <body
+      <h2
         class="c5"
       >
         Jennie
+      </h2>
+    </div>
+    <div
+      class="c6"
+    >
+      <subtitle
+        class="c7"
+      >
+        United States
+      </subtitle>
+      <body
+        class="c8"
+      >
+        jennie.nichols@example.com
       </body>
     </div>
-    <div>
-      United States
-    </div>
-    <div>
-      jennie.nichols@example.com
-    </div>
-  </div>
-  <div
+  </a>
+  <a
     class="c1"
-    width="100%"
+    cursor="pointer"
+    width="80%"
   >
     <div
       class="c2"
@@ -236,18 +280,26 @@ exports[`<UsersList /> 1. should render the list of users 1`] = `
           src="https://randomuser.me/api/portraits/women/2.jpg"
         />
       </figure>
-      <body
+      <h2
         class="c5"
       >
         Ruby
+      </h2>
+    </div>
+    <div
+      class="c6"
+    >
+      <subtitle
+        class="c7"
+      >
+        New Zealand
+      </subtitle>
+      <body
+        class="c8"
+      >
+        ruby.jones@example.com
       </body>
     </div>
-    <div>
-      New Zealand
-    </div>
-    <div>
-      ruby.jones@example.com
-    </div>
-  </div>
+  </a>
 </div>
 `;
