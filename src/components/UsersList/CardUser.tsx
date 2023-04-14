@@ -1,23 +1,70 @@
 import { Image, Row, Text } from 'components'
 
 export interface User {
-  id: string | number
-  avatar: string
-  name: string
-  nac: string
+  gender: string
+  name: {
+    title: string
+    first: string
+    last: string
+  }
+  location: {
+    street: {
+      number: number
+      name: string
+    }
+    city: string
+    state: string
+    country: string
+    postcode: string | number
+    coordinates: {
+      latitude: string
+      longitude: string
+    }
+    timezone: {
+      offset: string
+      description: string
+    }
+  }
   email: string
+  login: {
+    uuid: string
+    username: string
+    password: string
+    salt: string
+    md5: string
+    sha1: string
+    sha256: string
+  }
+  dob: {
+    date: string
+    age: number
+  }
+  registered: {
+    date: string
+    age: number
+  }
+  phone: string
+  cell: string
+  id: {
+    name: string
+    value: string | null
+  }
+  picture: {
+    large: string
+    medium: string
+    thumbnail: string
+  }
+  nat: string
 }
 
 export type CardUserProps = {
-  user: User
+  userData: User
 }
 
-const CardUser = ({
-  user: { id, avatar, name, nac, email }
-}: CardUserProps) => {
+const CardUser = ({ userData }: CardUserProps) => {
   return (
     <Row
-      key={id}
+      key={userData.login.uuid}
       bg="secondary"
       width="100%"
       justifyContent="space-between"
@@ -30,16 +77,16 @@ const CardUser = ({
     >
       <Row alignItems="center" flexDirection={['column', 'column', 'row']}>
         <Image
-          src={avatar}
+          src={userData?.picture?.large}
           alt="alt"
           width={['10rem', '12rem', '8rem']}
           height={['10rem', '12rem', '8rem']}
           borderRadius="10rem"
         />
-        <Text ml={[0, 0, 10]}>{name}</Text>
+        <Text ml={[0, 0, 10]}>{userData?.name?.first}</Text>
       </Row>
-      <div>{nac}</div>
-      <div>{email}</div>
+      <div>{userData?.location?.country}</div>
+      <div>{userData?.email}</div>
     </Row>
   )
 }

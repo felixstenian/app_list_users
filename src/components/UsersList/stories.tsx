@@ -1,14 +1,14 @@
 import { Meta, Story } from '@storybook/react'
 import UsersList, { CardUser, CardUserProps, UsersListProps } from '.'
-import { list } from './mock'
+import { listMock } from './mock'
 
 export default {
   title: 'UsersList',
   component: UsersList,
   args: {
-    list: list,
-    user: {
-      type: list[0]
+    list: listMock,
+    userData: {
+      type: listMock[0]
     }
   }
 } as Meta
@@ -20,5 +20,5 @@ export const CardUserDefault: Story<CardUserProps> = (args) => (
 )
 
 CardUserDefault.args = {
-  user: list[0]
+  userData: listMock[0]
 }

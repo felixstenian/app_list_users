@@ -185,6 +185,7 @@ exports[`<UsersList /> 1. should render the list of users 1`] = `
 
 <div
   class="c0"
+  data-testid="listUsers"
 >
   <div
     class="c1"
@@ -201,20 +202,20 @@ exports[`<UsersList /> 1. should render the list of users 1`] = `
         <img
           alt="alt"
           class="c4"
-          src="https://randomuser.me/api/portraits/men/78.jpg"
+          src="https://randomuser.me/api/portraits/men/75.jpg"
         />
       </figure>
       <body
         class="c5"
       >
-        John Doe
+        Jennie
       </body>
     </div>
     <div>
-      Brazilian
+      United States
     </div>
     <div>
-      john@doe.com
+      jennie.nichols@example.com
     </div>
   </div>
   <div
@@ -232,20 +233,20 @@ exports[`<UsersList /> 1. should render the list of users 1`] = `
         <img
           alt="alt"
           class="c4"
-          src="https://randomuser.me/api/portraits/women/64.jpg"
+          src="https://randomuser.me/api/portraits/women/2.jpg"
         />
       </figure>
       <body
         class="c5"
       >
-        Jane Doe
+        Ruby
       </body>
     </div>
     <div>
-      American
+      New Zealand
     </div>
     <div>
-      jane@doe.com
+      ruby.jones@example.com
     </div>
   </div>
 </div>
