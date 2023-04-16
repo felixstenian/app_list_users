@@ -1,0 +1,521 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ModalUserDetails /> 1. should render the modal with the correct data 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 8px;
+  width: 40rem;
+  height: 65rem;
+  overflow-y: auto;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 8px;
+}
+
+.c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c17 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c10 {
+  font-family: Poppins,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;
+  font-size: 1.4rem;
+  margin-right: 8px;
+}
+
+.c11 {
+  font-family: Poppins,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;
+  font-size: 2.8rem;
+}
+
+.c13 {
+  font-family: Poppins,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;
+  font-size: 2.0rem;
+}
+
+.c16 {
+  font-family: Poppins,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;
+  font-size: 1.4rem;
+}
+
+.c7 {
+  width: 15rem;
+  width: 15rem;
+  border-radius: 10rem;
+  overflow: hidden;
+}
+
+.c8 {
+  width: 100%;
+  height: 100%;
+}
+
+.c1 {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  z-index: 40;
+  background: rgba(0,0,0,0.25);
+}
+
+.c3 {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  min-width: 400px;
+  margin-left: 24px;
+  margin-right: 24px;
+  padding: 24px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.c4 {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  background: none;
+  cursor: pointer;
+}
+
+.c12 {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  border-bottom: 1px solid;
+  border-color: #8F8F8F;
+  padding: 1rem;
+}
+
+.c15 {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+@media screen and (min-width:40em) {
+  .c2 {
+    margin: 8px;
+  }
+}
+
+@media screen and (min-width:52em) {
+  .c2 {
+    margin: 30px;
+  }
+}
+
+@media screen and (min-width:40em) {
+  .c2 {
+    width: 40rem;
+    height: 67rem;
+  }
+}
+
+@media screen and (min-width:52em) {
+  .c2 {
+    width: 80rem;
+    height: 60rem;
+  }
+}
+
+@media screen and (min-width:40em) {
+  .c14 {
+    gap: 2rem;
+  }
+}
+
+@media screen and (min-width:52em) {
+  .c14 {
+    gap: 8rem;
+  }
+}
+
+<div
+  class="c0 c1"
+>
+  <div
+    class="c2 c3"
+    height="65rem,67rem,60rem"
+    width="40rem,40rem,80rem"
+  >
+    <div
+      class="c0 c4"
+      data-testid="modal-close-icon"
+    >
+      <svg
+        color="black"
+        fill="currentColor"
+        height="20"
+        stroke="currentColor"
+        stroke-width="0"
+        style="color: black;"
+        viewBox="0 0 1024 1024"
+        width="20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M685.4 354.8c0-4.4-3.6-8-8-8l-66 .3L512 465.6l-99.3-118.4-66.1-.3c-4.4 0-8 3.5-8 8 0 1.9.7 3.7 1.9 5.2l130.1 155L340.5 670a8.32 8.32 0 0 0-1.9 5.2c0 4.4 3.6 8 8 8l66.1-.3L512 564.4l99.3 118.4 66 .3c4.4 0 8-3.5 8-8 0-1.9-.7-3.7-1.9-5.2L553.5 515l130.1-155c1.2-1.4 1.8-3.3 1.8-5.2z"
+        />
+        <path
+          d="M512 65C264.6 65 64 265.6 64 513s200.6 448 448 448 448-200.6 448-448S759.4 65 512 65zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
+        />
+      </svg>
+    </div>
+    <div
+      class="c5"
+    >
+      <div
+        class="c6"
+      >
+        <figure
+          class="c7"
+          width="15rem"
+        >
+          <img
+            alt="alt"
+            class="c8"
+            src="https://randomuser.me/api/portraits/men/75.jpg"
+          />
+        </figure>
+        <div
+          class="c9"
+        >
+          <body
+            class="c10"
+          >
+            Miss
+          </body>
+          <h1
+            class="c11"
+          >
+            Jennie Nichols
+          </h1>
+        </div>
+      </div>
+      <div
+        class="c0 c12"
+      >
+        <h2
+          class="c13"
+        >
+          Dados
+        </h2>
+      </div>
+      <div
+        class="c14"
+      >
+        <div
+          class="c0 c15"
+        >
+          <body
+            class="c16"
+          >
+            Email:
+          </body>
+          <h2
+            class="c13"
+          >
+            jennie.nichols@example.com
+          </h2>
+        </div>
+        <div
+          class="c0 c15"
+        >
+          <body
+            class="c16"
+          >
+            Data de Nascimento:
+          </body>
+          <h2
+            class="c13"
+          >
+            08/03/1992
+          </h2>
+        </div>
+        <div
+          class="c0 c15"
+        >
+          <body
+            class="c16"
+          >
+            Idade:
+          </body>
+          <h2
+            class="c13"
+          >
+            30
+          </h2>
+        </div>
+      </div>
+      <div
+        class="c14"
+      >
+        <div
+          class="c0 c15"
+        >
+          <body
+            class="c16"
+          >
+            Telefone:
+          </body>
+          <h2
+            class="c13"
+          >
+            (272) 790-0888
+          </h2>
+        </div>
+        <div
+          class="c0 c15"
+        >
+          <body
+            class="c16"
+          >
+            Celular:
+          </body>
+          <h2
+            class="c13"
+          >
+            (489) 330-2385
+          </h2>
+        </div>
+        <div
+          class="c0 c15"
+        >
+          <body
+            class="c16"
+          >
+            Data de registro:
+          </body>
+          <h2
+            class="c13"
+          >
+            08/07/2007
+          </h2>
+        </div>
+      </div>
+      <div
+        class="c0 c12"
+      >
+        <h2
+          class="c13"
+        >
+          Endereço
+        </h2>
+      </div>
+      <div
+        class="c14"
+      >
+        <div
+          class="c0 c15"
+        >
+          <body
+            class="c16"
+          >
+            País:
+          </body>
+          <h2
+            class="c13"
+          >
+            United States
+          </h2>
+        </div>
+        <div
+          class="c0 c15"
+        >
+          <body
+            class="c16"
+          >
+            Estado:
+          </body>
+          <h2
+            class="c13"
+          >
+            Michigan
+          </h2>
+        </div>
+        <div
+          class="c0 c15"
+        >
+          <body
+            class="c16"
+          >
+            Cidade:
+          </body>
+          <h2
+            class="c13"
+          >
+            Billings
+          </h2>
+        </div>
+      </div>
+      <div
+        class="c14"
+      >
+        <div
+          class="c0 c15"
+        >
+          <body
+            class="c16"
+          >
+            Rua:
+          </body>
+          <h2
+            class="c13"
+          >
+            Valwood Pkwy, 8929
+          </h2>
+        </div>
+        <div
+          class="c17"
+        >
+          <a
+            href="https://www.google.com/maps/search/?api=1&query=-69.8246,134.8719
+"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg
+              color="#fafa"
+              fill="currentColor"
+              height="28"
+              stroke="currentColor"
+              stroke-width="0"
+              style="color: rgba(255, 170, 255, 0.667);"
+              viewBox="0 0 24 24"
+              width="28"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M17.5,6.5 L23,9 L23,22 L16,19 L8,22 L1,19 L1,6 L6,8 M16,19 L16,12 M8,22 L8,12 M12,16.2727273 C12,16.2727273 6,11.5 6,7 C6,3.25 9,1 12,1 C15,1 18,3.25 18,7 C18,11.5 12,16.2727273 12,16.2727273 Z M13,7 C13,6.44766667 12.5523333,6 12,6 C11.4476667,6 11,6.44766667 11,7 C11,7.55233333 11.4476667,8 12,8 C12.5523333,8 13,7.55233333 13,7 Z"
+                fill="none"
+                stroke="#000"
+                stroke-width="2"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

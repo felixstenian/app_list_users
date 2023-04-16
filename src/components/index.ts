@@ -15,3 +15,5 @@ export { default as Image } from './Image'
 export { default as Modal } from './Modal'
 
 export { default as UsersList } from './UsersList'
+
+export { default as ModalUserDetails } from './ModalUserDetails'
