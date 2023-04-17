@@ -1,5 +1,6 @@
-import { Row } from 'components'
 import styled, { DefaultTheme, css } from 'styled-components'
+
+import Row from 'components/Row/Row'
 
 const wrapperModifiers = {
   warning: (theme: DefaultTheme) => css`
@@ -52,11 +53,4 @@ export const Content = styled(Row)<{
     z-index: ${theme.layers.snackBar};
     ${!!type && wrapperModifiers[type](theme)}
   `}
-`
-export const CloseIcon = styled(Row)`
-  position: absolute;
-  top: 24px;
-  right: 24px;
-  background: none;
-  cursor: pointer;
 `
