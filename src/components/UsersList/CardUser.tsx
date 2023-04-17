@@ -1,5 +1,6 @@
-import { Image, ModalUserDetails, Row, Text } from 'components'
 import { useState } from 'react'
+
+import { Image, ModalUserDetails, Row, Text } from 'components'
 import { User } from 'shared/types'
 
 export type CardUserProps = {
@@ -22,7 +23,7 @@ const CardUser = ({ userData }: CardUserProps) => {
         />
       )}
       <Row
-        key={userData.login.uuid}
+        key={userData?.login?.uuid}
         bg="secondary"
         width="80%"
         justifyContent="center"
