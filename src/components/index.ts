@@ -19,3 +19,5 @@ export { default as UsersList } from './UsersList'
 export { default as ModalUserDetails } from './ModalUserDetails'
 
 export { default as Pagination } from './Pagination'
+
+export { default as Loading } from './Loading'
