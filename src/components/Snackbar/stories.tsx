@@ -1,5 +1,5 @@
 import { Meta, Story } from '@storybook/react'
-import { useRef } from 'react'
+import { useSnackBar } from 'shared/hooks'
 import Snackbar from '.'
 import SnackBar, { SnackbarProps } from './Snackbar'
 
@@ -17,16 +17,16 @@ export default {
 } as Meta
 
 export const Default: Story<SnackbarProps> = (args) => {
-  const snackbarRef = useRef<{ openSnackBar: () => void }>(null)
+  const { isOpen, message, showSnackBar, type } = useSnackBar()
 
   const open = () => {
-    snackbarRef.current?.openSnackBar()
+    showSnackBar(args.message, args.type)
   }
 
   return (
     <>
       <button onClick={open}>Open</button>
-      <SnackBar ref={snackbarRef} {...args} />
+      <SnackBar message={message} type={type} isOpen={isOpen} />
     </>
   )
 }
@@ -37,16 +37,16 @@ Default.args = {
 }
 
 export const Success: Story<SnackbarProps> = (args) => {
-  const snackbarRef = useRef<{ openSnackBar: () => void }>(null)
+  const { isOpen, message, showSnackBar, type } = useSnackBar()
 
   const open = () => {
-    snackbarRef.current?.openSnackBar()
+    showSnackBar(args.message, args.type)
   }
 
   return (
     <>
       <button onClick={open}>Open</button>
-      <SnackBar ref={snackbarRef} {...args} />
+      <SnackBar message={message} type={type} isOpen={isOpen} />
     </>
   )
 }
@@ -57,16 +57,16 @@ Success.args = {
 }
 
 export const Error: Story<SnackbarProps> = (args) => {
-  const snackbarRef = useRef<{ openSnackBar: () => void }>(null)
+  const { isOpen, message, showSnackBar, type } = useSnackBar()
 
   const open = () => {
-    snackbarRef.current?.openSnackBar()
+    showSnackBar(args.message, args.type)
   }
 
   return (
     <>
       <button onClick={open}>Open</button>
-      <SnackBar ref={snackbarRef} {...args} />
+      <SnackBar message={message} type={type} isOpen={isOpen} />
     </>
   )
 }

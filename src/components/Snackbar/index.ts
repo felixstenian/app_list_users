@@ -1,2 +1,2 @@
 export { default } from './Snackbar'
-export type { SnackbarProps } from './Snackbar'
+export type { SnackbarAlertType, SnackbarProps } from './Snackbar'
