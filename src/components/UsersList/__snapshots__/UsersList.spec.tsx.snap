@@ -254,11 +254,11 @@ exports[`<UsersList /> 1. should render the list of users 1`] = `
       >
         United States
       </subtitle>
-      <body
+      <paragraph
         class="c8"
       >
         jennie.nichols@example.com
-      </body>
+      </paragraph>
     </div>
   </a>
   <a
@@ -294,11 +294,11 @@ exports[`<UsersList /> 1. should render the list of users 1`] = `
       >
         New Zealand
       </subtitle>
-      <body
+      <paragraph
         class="c8"
       >
         ruby.jones@example.com
-      </body>
+      </paragraph>
     </div>
   </a>
 </div>

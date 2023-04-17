@@ -37,7 +37,7 @@ const ModalUserDetails = ({
             borderRadius="10rem"
           />
           <Row mt={2}>
-            <Text variant="body" mr={2}>
+            <Text variant="paragraph" mr={2}>
               {userData?.name?.title}
             </Text>
             <Text variant="biggerTitle">{`${userData?.name?.first} ${userData?.name?.last}`}</Text>
@@ -50,33 +50,33 @@ const ModalUserDetails = ({
 
         <Row gap={['2rem', '2rem', '8rem']} flexWrap="wrap">
           <Styled.Column>
-            <Text variant="body">Email:</Text>
+            <Text variant="paragraph">Email:</Text>
             <Text variant="mediumTitle">{userData?.email}</Text>
           </Styled.Column>
 
           <Styled.Column>
-            <Text variant="body">Data de Nascimento:</Text>
+            <Text variant="paragraph">Data de Nascimento:</Text>
             <Text variant="mediumTitle">
               {formatIsoStringToDateString(userData?.dob?.date)}
             </Text>
           </Styled.Column>
           <Styled.Column>
-            <Text variant="body">Idade:</Text>
+            <Text variant="paragraph">Idade:</Text>
             <Text variant="mediumTitle">{userData?.dob?.age}</Text>
           </Styled.Column>
         </Row>
 
         <Row gap={['2rem', '2rem', '8rem']} flexWrap="wrap">
           <Styled.Column>
-            <Text variant="body">Telefone:</Text>
+            <Text variant="paragraph">Telefone:</Text>
             <Text variant="mediumTitle">{userData?.phone}</Text>
           </Styled.Column>
           <Styled.Column>
-            <Text variant="body">Celular:</Text>
+            <Text variant="paragraph">Celular:</Text>
             <Text variant="mediumTitle">{userData?.cell}</Text>
           </Styled.Column>
           <Styled.Column>
-            <Text variant="body">Data de registro:</Text>
+            <Text variant="paragraph">Data de registro:</Text>
             <Text variant="mediumTitle">
               {formatIsoStringToDateString(userData?.registered?.date)}
             </Text>
@@ -89,22 +89,22 @@ const ModalUserDetails = ({
 
         <Row gap={['2rem', '2rem', '8rem']} flexWrap="wrap">
           <Styled.Column>
-            <Text variant="body">País:</Text>
+            <Text variant="paragraph">País:</Text>
             <Text variant="mediumTitle">{userData?.location?.country}</Text>
           </Styled.Column>
           <Styled.Column>
-            <Text variant="body">Estado:</Text>
+            <Text variant="paragraph">Estado:</Text>
             <Text variant="mediumTitle">{userData?.location?.state}</Text>
           </Styled.Column>
           <Styled.Column>
-            <Text variant="body">Cidade:</Text>
+            <Text variant="paragraph">Cidade:</Text>
             <Text variant="mediumTitle">{userData?.location?.city}</Text>
           </Styled.Column>
         </Row>
 
         <Row gap={['2rem', '2rem', '8rem']} flexWrap="wrap">
           <Styled.Column>
-            <Text variant="body">Rua:</Text>
+            <Text variant="paragraph">Rua:</Text>
             <Text variant="mediumTitle">
               {`${userData?.location?.street?.name}, ${userData?.location?.street?.number}`}
             </Text>

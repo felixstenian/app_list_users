@@ -1,5 +1,6 @@
 import {
   ColorProps,
+  LayoutProps,
   PositionProps,
   SpaceProps,
   TypographyProps
@@ -11,13 +12,14 @@ type Variant =
   | 'mediumTitle'
   | 'smallTitle'
   | 'subtitle'
-  | 'body'
+  | 'paragraph'
   | 'caption'
 
 export interface TextProps
   extends TypographyProps,
     SpaceProps,
     PositionProps,
+    LayoutProps,
     React.HTMLAttributes<HTMLParagraphElement>,
     Omit<ColorProps, 'color'> {
   variant?: Variant
@@ -28,14 +30,19 @@ export interface TextProps
   wordWrap?: string
 }
 
-const Text = ({ variant = 'body', color, children, ...rest }: TextProps) => {
+const Text = ({
+  variant = 'paragraph',
+  color,
+  children,
+  ...rest
+}: TextProps) => {
   const asVariant = (variant: Variant) => {
     const variants = {
       biggerTitle: 'h1',
       mediumTitle: 'h2',
       smallTitle: 'h3',
       subtitle: 'subtitle',
-      body: 'body',
+      paragraph: 'paragraph',
       caption: 'caption'
     }
 

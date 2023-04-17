@@ -4,7 +4,7 @@ import styled, {
   css
 } from 'styled-components'
 
-import { position, space, system, typography } from 'styled-system'
+import { layout, position, space, system, typography } from 'styled-system'
 import { TextProps } from '.'
 
 interface WrapperModifiers {
@@ -24,7 +24,7 @@ const wrapperModifiers: WrapperModifiers = {
   subtitle: (theme: DefaultTheme) => css`
     font-size: ${theme.font.sizes.medium};
   `,
-  body: (theme: DefaultTheme) => css`
+  paragraph: (theme: DefaultTheme) => css`
     font-size: ${theme.font.sizes.small};
   `,
   caption: (theme: DefaultTheme) => css`
@@ -41,5 +41,6 @@ export const Wrapper = styled.p<TextProps>`
   ${space};
   ${position};
   ${typography};
+  ${layout};
   ${system({ cursor: true, wordBreak: true, wordWrap: true })};
 `

@@ -6,9 +6,9 @@ exports[`<Text /> 1. should render the reading 1`] = `
   font-size: 1.4rem;
 }
 
-<body
+<paragraph
   class="c0"
 >
   Text
-</body>
+</paragraph>
 `;
