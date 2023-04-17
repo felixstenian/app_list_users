@@ -8,7 +8,7 @@ const App = ({ Component, pageProps }: AppProps) => {
   return (
     <ThemeProvider theme={theme}>
       <Head>
-        <title>React avançado - Boilerplate</title>
+        <title>List Users - randomuser.me</title>
         <link
           rel="shortcut icon"
           href="/img/icon-512.png"
@@ -21,7 +21,7 @@ const App = ({ Component, pageProps }: AppProps) => {
         />
         <meta
           name="description"
-          content="A simple project starter to work with TypeScript, React, NextJS and Styles Components"
+          content="A simple project for list users with API randomuser.me, using React, NextJS and Styles Components"
         />
       </Head>
       <GlobalStyle />
