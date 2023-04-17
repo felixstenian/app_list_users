@@ -30,7 +30,7 @@ export interface RowProps
     Omit<ColorProps, 'color'> {
   ref?: React.ForwardedRef<unknown>
   as?: React.FC | string
-  gap?: string
+  gap?: string | string[]
   cursor?: string
   wordBreak?: string
   wordWrap?: string
