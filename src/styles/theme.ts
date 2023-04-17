@@ -11,6 +11,11 @@ const theme = {
     overlay: {
       light: 'rgba(0,0,0, 0.25)',
       dark: 'rgba(0,0,0, 0.75)'
+    },
+    alerts: {
+      warning: '#ffcc00',
+      suecess: '#99cc33',
+      error: '#ff9966'
     }
   },
   grid: {
@@ -49,6 +54,7 @@ const theme = {
     menu: 20,
     overlay: 30,
     modal: 40,
+    snackBar: 60,
     alwaysOnTop: 50
   }
 }

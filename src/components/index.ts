@@ -21,3 +21,5 @@ export { default as ModalUserDetails } from './ModalUserDetails'
 export { default as Pagination } from './Pagination'
 
 export { default as Loading } from './Loading'
+
+export { default as Snackbar } from './Snackbar'
