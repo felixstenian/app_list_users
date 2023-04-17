@@ -1,10 +1,10 @@
+import Link from 'next/link'
 import { GrMapLocation } from 'react-icons/gr'
 
 import { Image, Modal, Row, Text } from 'components'
+import { formatIsoStringToDateString } from 'shared/helpers'
 import { User } from 'shared/types'
 
-import Link from 'next/link'
-import { formatIsoStringToDateString } from 'shared/helpers'
 import * as Styled from './styles'
 
 export type ModalUserDetailsProps = {
