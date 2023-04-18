@@ -71,3 +71,17 @@ Para rodar os testes é necessário rodar o comando:
 
 >O desenvolvimento da aplicação seguiu uma abordagem iterativa e incremental, com a adição de funcionalidades e melhorias de forma progressiva. Além disso, houve um foco em melhorar a experiência do usuário, com a adição de funcionalidades de pesquisa e paginação, além de melhorias visuais e de responsividade.
 
+<br>
+<details open>
+<summary>Sobre o desenvolvimento 😊</summary>
+
+---
+Fiquei muito animado em realizar este projeto, pois o desenvolvimento de interfaces web é uma das minhas áreas favoritas. Foi interessante ver como o projeto evoluiu de forma iterativa e incremental, com a adição de funcionalidades e melhorias de forma progressiva.
+
+Uma das coisas que mais gostei foi a liberdade de utilizar as ferramentas que mais me sinto à vontade, e a utilização da API RESTful simples para consumir os dados dos usuários. Isso permitiu que a aplicação fosse mais modular e escalável, além de facilitar o processo de manutenção dos dados.
+
+Em termos de desafios, um deles foi a implementação de testes em alguns componentes. Isso exigiu um pouco mais de trabalho e atenção aos detalhes, mas foi uma boa oportunidade para praticar minhas habilidades com tests.
+
+Outro desafio foram algumas mudanças com a atualização da versão do Next. Para isso, precisei estudar um pouco mais sobre essas novas atualizações e o impacto no comportamenot da aplicação. No entanto, isso também foi uma ótima oportunidade para aprender e me aprimorar.
+
+No geral, gostei muito do processo de desenvolvimento da aplicação. Foi uma ótima oportunidade para praticar minhas habilidades e trabalhar em um projeto que exigiu um pouco mais em termos testes no front e documentação de componentes.
