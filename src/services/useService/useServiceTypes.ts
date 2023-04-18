@@ -1,5 +1,5 @@
 import { AxiosInstance, AxiosRequestConfig } from 'axios'
-import { User } from 'components/UsersList'
+import { User } from 'shared/types'
 
 export type ApiType = AxiosInstance
 
