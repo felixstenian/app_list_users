@@ -16,5 +16,8 @@ export const Default: Story<SelectionFieldProps> = (args) => (
 )
 
 Default.args = {
-  options: ['Option 1', 'Option 2']
+  options: [
+    { label: 'Option 1', value: 'option-1' },
+    { label: 'Option 2', value: 'option-2' }
+  ]
 }
