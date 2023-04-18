@@ -21,41 +21,41 @@ Caso queira rodar a aplicação localmente, siga os seguintes passos:
     $ cd app_list_users
 
   - Instale as dependências do projeto
-    npm
+    [npm]
       $ npm install
 
-    yarn
+    [yarn]
       $ yarn
 
   - Inicie a aplicação
-    npm
+    [npm]
       $ npm dev
 
-    yarn
+    [yarn]
       $ yarn dev
 
   - Acesse a aplicação em um navegador web usando o endereço http://localhost:3000.
 
 ```
 
-### Acessar Documentação de componentes
+### Documentação de componentes
 Para acessar a documentação dos componentes é necessário rodar o comando:
 ```
-    npm
+    [npm]
       $ npm storybook
 
-    yarn
+    [yarn]
       $ yarn storybook
 ```
 > Caso o navegador não abra a aba, acesse a documentação usando o endereço http://localhost:6006.
 
-### Verificar os testes
+### Testes
 Para rodar os testes é necessário rodar o comando:
 ```
-    npm
+    [npm]
       $ npm test
 
-    yarn
+    [yarn]
       $ yarn test
 ```
 
