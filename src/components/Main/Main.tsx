@@ -2,6 +2,7 @@ import { useCallback, useEffect, useState } from 'react'
 
 import {
   Header,
+  Image,
   Loading,
   Pagination,
   Row,
@@ -15,6 +16,7 @@ import { getUsers, useService } from 'services'
 import { GENDERS, NATIONALITIES } from 'shared/helpers'
 import { useSnackBar } from 'shared/hooks'
 import { User } from 'shared/types'
+
 import * as Style from './styles'
 
 const Main = () => {
@@ -70,7 +72,9 @@ const Main = () => {
 
   return (
     <Style.Wrapper>
-      <Header>LOGO</Header>
+      <Header>
+        <Image src="/img/logo-users.png" width="10rem" />
+      </Header>
       <SnackBar message={message} type={type} isOpen={isOpen} />
       <Row
         mt={20}
