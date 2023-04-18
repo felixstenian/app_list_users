@@ -5,7 +5,7 @@ export type ApiType = AxiosInstance
 
 export interface ApiResponse {
   data: {
-    results: User | User[]
+    results: User[]
   }
   info: {
     seed: string
