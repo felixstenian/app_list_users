@@ -41,8 +41,8 @@ const Text = ({
       biggerTitle: 'h1',
       mediumTitle: 'h2',
       smallTitle: 'h3',
-      subtitle: 'subtitle',
-      paragraph: 'paragraph',
+      subtitle: 'h4',
+      paragraph: 'p',
       caption: 'caption'
     }
 

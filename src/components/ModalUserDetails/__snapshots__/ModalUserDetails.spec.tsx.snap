@@ -300,11 +300,11 @@ exports[`<ModalUserDetails /> 1. should render the modal with the correct data 1
         <div
           class="c9"
         >
-          <paragraph
+          <p
             class="c10"
           >
             Miss
-          </paragraph>
+          </p>
           <h1
             class="c11"
           >
@@ -327,11 +327,11 @@ exports[`<ModalUserDetails /> 1. should render the modal with the correct data 1
         <div
           class="c0 c15"
         >
-          <paragraph
+          <p
             class="c16"
           >
             Email:
-          </paragraph>
+          </p>
           <h2
             class="c13"
           >
@@ -341,11 +341,11 @@ exports[`<ModalUserDetails /> 1. should render the modal with the correct data 1
         <div
           class="c0 c15"
         >
-          <paragraph
+          <p
             class="c16"
           >
             Data de Nascimento:
-          </paragraph>
+          </p>
           <h2
             class="c13"
           >
@@ -355,11 +355,11 @@ exports[`<ModalUserDetails /> 1. should render the modal with the correct data 1
         <div
           class="c0 c15"
         >
-          <paragraph
+          <p
             class="c16"
           >
             Idade:
-          </paragraph>
+          </p>
           <h2
             class="c13"
           >
@@ -373,11 +373,11 @@ exports[`<ModalUserDetails /> 1. should render the modal with the correct data 1
         <div
           class="c0 c15"
         >
-          <paragraph
+          <p
             class="c16"
           >
             Telefone:
-          </paragraph>
+          </p>
           <h2
             class="c13"
           >
@@ -387,11 +387,11 @@ exports[`<ModalUserDetails /> 1. should render the modal with the correct data 1
         <div
           class="c0 c15"
         >
-          <paragraph
+          <p
             class="c16"
           >
             Celular:
-          </paragraph>
+          </p>
           <h2
             class="c13"
           >
@@ -401,11 +401,11 @@ exports[`<ModalUserDetails /> 1. should render the modal with the correct data 1
         <div
           class="c0 c15"
         >
-          <paragraph
+          <p
             class="c16"
           >
             Data de registro:
-          </paragraph>
+          </p>
           <h2
             class="c13"
           >
@@ -428,11 +428,11 @@ exports[`<ModalUserDetails /> 1. should render the modal with the correct data 1
         <div
           class="c0 c15"
         >
-          <paragraph
+          <p
             class="c16"
           >
             País:
-          </paragraph>
+          </p>
           <h2
             class="c13"
           >
@@ -442,11 +442,11 @@ exports[`<ModalUserDetails /> 1. should render the modal with the correct data 1
         <div
           class="c0 c15"
         >
-          <paragraph
+          <p
             class="c16"
           >
             Estado:
-          </paragraph>
+          </p>
           <h2
             class="c13"
           >
@@ -456,11 +456,11 @@ exports[`<ModalUserDetails /> 1. should render the modal with the correct data 1
         <div
           class="c0 c15"
         >
-          <paragraph
+          <p
             class="c16"
           >
             Cidade:
-          </paragraph>
+          </p>
           <h2
             class="c13"
           >
@@ -474,11 +474,11 @@ exports[`<ModalUserDetails /> 1. should render the modal with the correct data 1
         <div
           class="c0 c15"
         >
-          <paragraph
+          <p
             class="c16"
           >
             Rua:
-          </paragraph>
+          </p>
           <h2
             class="c13"
           >

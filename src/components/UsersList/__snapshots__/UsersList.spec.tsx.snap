@@ -249,16 +249,16 @@ exports[`<UsersList /> 1. should render the list of users 1`] = `
     <div
       class="c6"
     >
-      <subtitle
+      <h4
         class="c7"
       >
         United States
-      </subtitle>
-      <paragraph
+      </h4>
+      <p
         class="c8"
       >
         jennie.nichols@example.com
-      </paragraph>
+      </p>
     </div>
   </a>
   <a
@@ -289,16 +289,16 @@ exports[`<UsersList /> 1. should render the list of users 1`] = `
     <div
       class="c6"
     >
-      <subtitle
+      <h4
         class="c7"
       >
         New Zealand
-      </subtitle>
-      <paragraph
+      </h4>
+      <p
         class="c8"
       >
         ruby.jones@example.com
-      </paragraph>
+      </p>
     </div>
   </a>
 </div>
